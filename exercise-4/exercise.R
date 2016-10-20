@@ -1,13 +1,14 @@
 # Exercise 4: DPLYR and flights data
 
 # Install the nycflights13 package and read it in.  Require the dplyr package
-# install.packages("nycflights13")
+install.packages("nycflights13")
+install.packages("dplyr")
 library(nycflights13)
 library(dplyr)
 
 # The data.frame flights should now be accessible to you.  View it, 
 # and get some basic information about the number of rows/columns
-
+view(nycflights13)
 
 # Add a column that is the amount of time gained in the air (`arr_delay` - `dep_delay`)
 
